@@ -2,7 +2,7 @@
 
 import PropTypes from "prop-types";
 import { useContext, useEffect, useState } from "react";
-import { TaskContext } from "../context/TaskContext";
+import { TaskContext } from "../Context/TaskContext";
 
 const TaskForm = ({ showModal, setShowModal, editingTask, setEditingTask }) => {
   const { dispatch } = useContext(TaskContext);

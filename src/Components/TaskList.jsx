@@ -2,7 +2,7 @@
 
 import PropTypes from "prop-types";
 import { useContext } from "react";
-import { TaskContext } from "../context/TaskContext";
+import { TaskContext } from "../Context/TaskContext";
 
 // Define an array of color classes for the tags
 const tagColors = [
@@ -75,7 +75,7 @@ const TaskList = ({ onEditTask }) => {
                     return (
                       <span
                         key={idx}
-                        className={`inline-block h-5 whitespace-nowrap rounded-[45px] ${tagColorClass} px-2.5 text-sm capitalize text-[#F4F5F6]`}
+                        className={`inline-block h-5 whitespace-nowrap rounded-[45px] ${tagColorClass}  px-2.5 text-sm capitalize text-[#F4F5F6] `}
                       >
                         {tag}
                       </span>

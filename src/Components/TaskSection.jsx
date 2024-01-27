@@ -1,7 +1,8 @@
 // src/components/TaskSection.jsx
 
 import { useContext, useState } from "react";
-import { TaskContext } from "../context/TaskContext";
+import { TaskContext } from "../Context/TaskContext";
+
 import SearchBar from "./SearchBar";
 import TaskForm from "./TaskForm";
 import TaskList from "./TaskList";
