@@ -1,8 +1,4 @@
-// src/components/HeroSection.jsx
-
-//import React from 'react';
-
-const HeroSection = () => {
+export default function HeroSection() {
   return (
     <section className="bg-[#191D26] font-[Inter] text-white">
       <div className="container mx-auto w-10/12">
@@ -28,6 +24,4 @@ const HeroSection = () => {
       </div>
     </section>
   );
-};
-
-export default HeroSection;
+}
